@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+
+.calculator {
+  width: 650px;
+  margin: 55px auto;
+}
+.calculator .card {
+  padding: 20px 25px;
+}
+.symbols {
+  text-align: left;
+}
+.symbols span {
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.3s;
+  padding: 3px 4px 4px 4px;
+}
+.symbols span:hover, .symbols span.active {
+  background-color: #f0f0f0;
+}
+.symbols span:last-child {
+  background-color: white;
+  font-weight: bold;
+  padding-left: 8px;
+  padding-right: 0;
+}
+.input-group input {
+  text-align: center;
+}
+.input-group .dropdown > button {
+  min-width: 170px;
+}
+.input-group input {
+  width: 100%;
+}
